@@ -2,10 +2,10 @@
 # Bank Holidays 
 # Author: Michal Gondek
 
-
+# Import data
 import requests
 
-# Fetch live UK bank holiday data
+# Import live UK bank holiday data
 url = "https://www.gov.uk/bank-holidays.json"
 response = requests.get(url)
 data = response.json()
